@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        android:elevation="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="15dp"
+        >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mega_sena"
+        android:contentDescription="@string/logoMegaSena" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_apresentacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_apresentacao"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:minHeight="70dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+
+        android:layout_marginHorizontal="15dp"
+        android:text="@string/tv_descricao" />
+
+
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/hintQtdNumeros"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btn_sortear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"
+        android:backgroundTint="#2E8B57"
+        android:text="@string/botaoEntrada" />
+
+
+</LinearLayout>
+
+</ScrollView>

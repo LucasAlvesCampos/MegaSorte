@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MegaSorte</string>
+    <string name="logoMegaSena">Logo da mega sena</string>
+    <string name="tv_apresentacao">Bem vindo ao MegaSorte! Preencha os campos abaixo para gerar um jogo. Boa sorte!</string>
+    <string name="nome">Nome</string>
+    <string name="tv_descricao">Digite a quantidade de números que quer gerar no sorteio (Mínimo 6, Máximo 15)</string>
+    <string name="hintQtdNumeros">6</string>
+    <string name="botaoEntrada">Gerar um jogo</string>
+    <string name="numeros_sugeridos">Jogo sugerido:</string>
+    <string name="resultados">Aguardando sorteio</string>
+    <string name="ultimoSugerido">Último jogo sugerido:</string>
+    <string name="ultimoResultado"> Ainda não foi sugerido nenhum jogo.</string>
+    <string name="botao_resultado">Sortear</string>
+    <string name="sair">Sair</string>
+    <string name="voltar">Voltar as preferencias</string>
+
+</resources>
